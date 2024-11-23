@@ -1,26 +1,22 @@
-# Lama Dev School Management Dashboard
+# Web App Developed by Hamza A.K
 
-## Getting Started
+This web app is developed by **Hamza A.K**, designed and built from scratch with the latest technologies like **Prisma** for database management and **PostgreSQL** as the relational database.
 
-First, run the development server:
+## How to Set Up the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To set up and run this web app locally, follow these steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Set Up Prisma
+- Go to the [Prisma documentation](https://www.prisma.io/docs) and choose the **Start from Scratch** guide to set up your Prisma environment.
+- Copy the Prisma schema from your newly created project and paste it into the `schema.prisma` file of your project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Set Up PostgreSQL with Docker
+- Run a Docker image for PostgreSQL and set the following environment variables:
+  - `POSTGRES_USER`: `hamza`
+  - `POSTGRES_PASSWORD`: `hamza1234`
+  - `POSTGRES_DB`: `school`
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+### 3. Run Migrations
+- After setting up Prisma and the database, run the following migration command to apply your Prisma schema to the database:
+  ```bash
+  npx prisma migrate dev
