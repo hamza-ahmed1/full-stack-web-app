@@ -79,8 +79,7 @@ Feel free to explore and contribute to the repository!
 
 ## Developed by Hamza A.K. All rights reserved.
 
-vbnet
-Copy code
+
 
 ### Explanation of Changes:
 1. **Step-by-Step Instructions**: Each step is clearly numbered with a short description followed by the code snippets required for that step.
@@ -89,5 +88,3 @@ Copy code
 4. **Prisma Client Setup**: Step 6 describes how to set up Prisma Client with the required `prisma.ts` file.
 5. **Final Steps**: The remaining steps guide you on modifying `package.json`, installing dependencies, and seeding the database.
 
-### To Use:
-Copy and paste this into your **`README.md`** file in your GitHub repository. It will give u
