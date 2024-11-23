@@ -4,8 +4,6 @@ This web app is developed by **Hamza A.K**, designed and built from scratch with
 
 ## How to Set Up the Project
 
-To set up and run this web app locally, follow these steps:
-
 ### 1. Set Up Prisma
 - Go to the [Prisma documentation](https://www.prisma.io/docs) and choose the **Start from Scratch** guide to set up your Prisma environment.
 - Copy the Prisma schema from your newly created project and paste it into the `schema.prisma` file of your project.
